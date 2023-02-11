@@ -20,8 +20,8 @@ window.config = {
       {
         name: 'PulseProtocol',
         wadoUriRoot: 'http://127.0.0.1:8042/pacs/wado',
-        qidoRoot: 'http://127.0.0.1/pacs:8042/dicom-web',
-        wadoRoot: 'http://127.0.0.1/pacs:8042/dicom-web',
+        qidoRoot: 'http://127.0.0.1/pacs:8042/pacs/dicom-web',
+        wadoRoot: 'http://127.0.0.1/pacs:8042/pacs/dicom-web',
         qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
