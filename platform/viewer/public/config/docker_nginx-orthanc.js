@@ -4,7 +4,7 @@ window.config = {
   servers: {
     dicomWeb: [
       {
-        name: 'Orthanc',
+        name: 'PulseProtocol',
         wadoUriRoot: '/wado',
         qidoRoot: '/dicom-web',
         wadoRoot: '/dicom-web',
