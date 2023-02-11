@@ -28,7 +28,7 @@ jobs:
       - name: Get dependencies 
         run: yarn install
       - name: Build
-        run: yarn run dev:orthanc
+        run: yarn run build:pulse
       - name: rsync deployments
         uses: burnett01/rsync-deployments@5.1
         with:
