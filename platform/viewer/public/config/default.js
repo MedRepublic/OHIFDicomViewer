@@ -148,7 +148,7 @@ window.config = {
         style: {
           display: 'block',
           textIndent: '-9999px',
-          background: 'url(../assets/pulse_Logo.png)',
+          background: 'url(../assets/pulse_logo.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           width: '200px',
