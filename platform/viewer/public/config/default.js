@@ -137,4 +137,23 @@ window.config = {
   //  try setting this to even lower value
   // Leave it undefined for no limit, suitable for HTTP/2 enabled servers
   // maxConcurrentMetadataRequests: 5,
+  whiteLabeling: {
+    
+    createLogoComponentFn: function(React) {
+      return React.createElement('a', {
+        target: '_self',
+        rel: 'noopener noreferrer',
+        className: 'header-brand',
+        href: '/',
+        style: {
+          display: 'block',
+          textIndent: '-9999px',
+          background: 'url(../assets/pulse_Logo.png)',
+          backgroundSize: 'contain',
+          backgroundRepeat: 'no-repeat',
+          width: '200px',
+        },
+      });
+    },
+  },
 };
