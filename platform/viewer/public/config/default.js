@@ -19,9 +19,9 @@ window.config = {
     dicomWeb: [
       {
         name: 'PulseProtocol',
-        wadoUriRoot: 'https://54.176.90.117:8042/wado',
-        qidoRoot: 'https://54.176.90.117:8042/dicom-web',
-        wadoRoot: 'https://54.176.90.117:8042/dicom-web',
+        wadoUriRoot: 'https://pacs.pulseprotocol.com/orthanc/wado',
+        qidoRoot: 'https://pacs.pulseprotocol.com/orthanc/dicom-web',
+        wadoRoot: 'https://pacs.pulseprotocol.com/orthanc/dicom-web',
         qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
